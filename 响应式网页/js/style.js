@@ -1,15 +1,15 @@
 $(function () {
     $(".navButton").click(function () {
-        $(".menu").slideToggle(200)
-        $(".header-NR").focus()
+        $(".menu").slideToggle(200);
+        $(".header-NR").focus();
         $(".header-NR").blur(function () {
             $(".menu").slideUp(200)
         })
     });
-    ImgLoop()
+    ImgLoop();
+    bottomLoop()
+});
 
-
-})
 // banner
 function ImgLoop() {
     var infoInit = {
@@ -62,4 +62,41 @@ function ImgLoop() {
     infoInit.load();
     infoInit.setRoll();
     infoInit.resizeWin();
+}
+
+// bottomBanner
+function bottomLoop() {
+    var int = {
+        width: $(".aboutBanner").width(),
+        load: function () {
+            var _this = this;
+            $(".aboutBannerUl ul").width(_this.width);
+            $(".aboutBannerUl").append($(".aboutBannerUl").html());
+            $(".aboutBannerUl ul").each(function (index) {
+                $(this).css({
+                    "left": index * _this.width + "px"
+                })
+            })
+        },
+        loop: function () {
+            var getLeft;
+            var _this = this;
+            setInterval(function () {
+                $(".aboutBannerUl ul").each(function (index) {
+                    getLeft = $(".aboutBannerUl ul").eq(index).position().left;
+                    getLeft--;
+                    $(".aboutBannerUl ul").eq(index).css({
+                        "left": getLeft + "px"
+                    });
+                    if (getLeft < -_this.width) {
+                        $(".aboutBannerUl ul").eq(index).css({
+                            "left": _this.width + "px"
+                        });
+                    }
+                })
+            }, 10)
+        },
+    };
+    int.load();
+    int.loop()
 }

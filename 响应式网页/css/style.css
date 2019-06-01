@@ -233,6 +233,196 @@ header {
     outline: none;
 }
 
+.ROW {
+    overflow: hidden;
+    text-align: right;
+    background: url("../images/RowImg.jpg") no-repeat center top;
+    width: 100%;
+}
+
+.ROW h2 {
+    color: #000000;
+    font-weight: normal;
+}
+
+.ROW p {
+    font-size: 14px;
+    color: #262626;
+    line-height: 25px;
+    text-align: right;
+}
+
+.ROWS {
+    overflow: hidden;
+    background: url("../images/RowImgs.jpg") no-repeat center top;
+    width: 100%;
+}
+
+.ROWS h2 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.ROWS p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.ROWBtn a, .ROWBtns a {
+    font-weight: bold;
+}
+
+.BOTTON {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.mouleDiv {
+    width: 100%;
+}
+
+.mouleML {
+    background: url("../images/bottom1.jpg") no-repeat center top;
+}
+
+.mouleLeft {
+
+}
+
+.BR1 {
+    height: 100%;
+    background: url("../images/BR1.jpg") no-repeat center top;
+    background-size: cover
+}
+
+.BR2 {
+    height: 100%;
+    background: url("../images/BR2.jpg") no-repeat center top;
+    background-size: cover
+}
+
+.aboutCon {
+    overflow: hidden;
+}
+
+.aboutLeftL {
+
+}
+
+.aboutLeftL h2 {
+    width: 100%;
+}
+
+.aboutLeftL h2 img {
+    width: 100%;
+}
+
+.aboutLeftLBtns {
+    width: 120px;
+    height: 44px;
+    background: #f2ad17;
+    text-align: center;
+    line-height: 44px;
+    margin: 44px 0 0 0;
+}
+
+.aboutLeftLBtns a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: inherit;
+}
+
+.aboutLeftR h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #00a4bf;
+    height: 73px;
+    line-height: 73px;
+    overflow: hidden;
+}
+
+.aboutLeftR h3 {
+    line-height: 22px;
+    color: #000;
+    font-weight: normal
+}
+
+.aboutLeftR p {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.aboutLeftR p img {
+    width: 70%;
+}
+
+.aboutBanner {
+    height: 240px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.aboutLTitle {
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+.aboutLTitle h2 {
+    float: left;
+}
+
+.aboutLTitle h2 img {
+}
+
+.aboutLTitle h3 {
+    float: left;
+    color: #00a4bf;
+    font-weight: normal;
+    margin-left: 12px;
+}
+
+.aboutBannerUl {
+    width: 200%;
+    overflow: hidden;
+    height: 240px;
+    position: relative;
+}
+
+.aboutBannerUl ul {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutBannerUl li {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    display: table;;
+}
+
+.aboutBannerUl li img {
+    width: 80%;
+    max-height: 120px;
+}
+
+.ABDiv {
+    height: inherit;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.ABDiv img {
+}
+
 @media (max-width: 992px) {
     .head-top {
         display: none;
@@ -418,7 +608,7 @@ header {
 
     .itemsColCR {
         border: 1px solid #fff;
-        width: 30%;
+        width: 60%;
         margin: 15px auto 0;
         text-align: center;
     }
@@ -434,18 +624,25 @@ header {
     }
 
     .itemsColC {
-        padding: 10em 0 3em 0;
+        padding: 7em 0 3em 0;
         margin: 0 0 0.8em 0;
     }
-    .COL{
-        padding: 0 15px;}
-    .itemsCol{
+
+    .COL {
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+
+    .itemsCol {
         width: 96%;
-        margin: 0 auto;}
+        margin: 0 auto 0.7em;
+        height: 15em;
+        overflow: hidden;
+    }
 
     .itemsCol1 {
         background: url("../images/xscol1.jpg") no-repeat center top;
-        background-size: auto;
+        background-size: cover;
     }
 
     .itemsCol2 {
@@ -461,6 +658,248 @@ header {
     .itemsCol4 {
         background: url("../images/xscol4.jpg") no-repeat center top;
         background-size: auto;
+    }
+
+    .ROW {
+        height: 220px;
+        padding-bottom: 100px;
+    }
+
+    .ROW h2 {
+        font-size: 30px;
+        line-height: 60px;
+        margin-top: 70px;
+        padding-right: 10%;
+    }
+
+    .ROW p {
+        padding-right: 10%;
+    }
+
+    .ROWBtn {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #5c5c5c;
+        text-align: center;
+        line-height: 44px;
+        float: right;
+        margin: 35px 10% 0 0;
+    }
+
+    .ROWBtn a {
+        font-size: 14px;
+        color: #676767;
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .ROWS {
+        height: 220px;
+        padding-bottom: 100px;
+    }
+
+    .ROWS h2 {
+        font-size: 30px;
+        line-height: 60px;
+        margin-top: 70px;
+        padding-left: 10%;
+    }
+
+    .ROWS p {
+        padding-left: 10%;
+    }
+
+    .ROWBtns {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 44px;
+        margin: 35px 0 0 10%;
+    }
+
+    .ROWBtns a {
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .mouleML {
+        /*padding-bottom: 68px;*/
+        overflow: hidden;
+        background-size: cover;
+
+    }
+
+    .BOTTON {
+        height: 474px;
+        overflow: hidden;
+    }
+
+    .mouleLeft {
+        padding: 290px 0 70px 0;
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .mouleDiv {
+    }
+
+    .mouleDiv h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 60px;
+        /*margin-top: 1.4em;*/
+        color: #fff;
+        font-weight: normal;
+    }
+
+    .mouleDiv p {
+        display: none;
+    }
+
+    .mouleDivBtns {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 44px;
+        margin: 12px auto 0;
+    }
+
+    .mouleDivBtns a {
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .BRDC {
+        padding: 80px 0 0 0;
+    }
+
+    .aboutLeft {
+        padding: 119px 0 0 20px;
+
+    }
+
+    .aboutLeftR {
+        padding: 35px 30px 0 30px;
+    }
+
+    .aboutLeftR h3 {
+        font-size: 14px;
+    }
+
+    .aboutLeft {
+        padding-bottom: 120px;
+    }
+
+    .aboutSM {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutLTitle {
+    }
+
+    .aboutLTitle h2 {
+        /*width: 45%;*/
+        height: 10%;
+
+    }
+
+    .aboutLTitle h2 img {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .aboutLTitle h3 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 4px;
+
+    }
+
+    .footLeftCC {
+        display: none;
+    }
+
+    .foot-foot {
+        display: none
+    }
+
+    .footLeftLogo {
+        display: none;
+    }
+
+    footer {
+        background: #878787;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footBt-logo {
+        width: 38%;
+        padding-top: 25px;
+    }
+
+    .footBt-logo img {
+        width: 100%;
+    }
+
+    .footRight {
+        margin-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .footRight ul {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 78%;
+    }
+
+    .footRight ul li {
+        float: left;
+
+        text-align: center;
+        width: 20%;
+    }
+
+    .footRight ul li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #fff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .footRight ul li img {
+        margin-top: 8px;
+        height: 24px;
+    }
+
+    .mFoot-foot {
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        color: #bdbdbd;
+        border-top: 1px solid #fff;
+        width: 96%;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .aboutBannerUl li img {
+        width: auto !important;
     }
 
 }
@@ -885,4 +1324,288 @@ header {
         background-size: auto;
     }
 
+    .ROW {
+        height: 418px;
+    }
+
+    .ROW h2 {
+        font-size: 40px;
+        line-height: 88px;
+        margin-top: 88px;
+        padding-right: 180px;
+    }
+
+    .ROW p {
+        padding-right: 180px;
+    }
+
+    .ROWBtn {
+        width: 120px;
+        height: 44px;
+        background: #f2ad17;
+        text-align: center;
+        line-height: 44px;
+        float: right;
+        margin: 35px 180px 0 0;
+    }
+
+    .ROWBtn a {
+        font-size: 16px;
+        color: #000;
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .ROWS {
+        height: 332px;
+    }
+
+    .ROWS h2 {
+        font-size: 40px;
+        line-height: 88px;
+        margin-top: 52px;
+        padding-left: 180px;
+    }
+
+    .ROWS p {
+        padding-left: 180px;
+    }
+
+    .ROWBtns {
+        width: 120px;
+        height: 44px;
+        background: #f2ad17;
+        text-align: center;
+        line-height: 44px;
+        margin: 35px 0 0 180px;
+    }
+
+    .ROWBtns a {
+        font-size: 16px;
+        color: #000;
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .mouleML {
+        padding-bottom: 68px;
+    }
+
+    .mouleLeft {
+        padding: 400px 0 0 0;
+
+    }
+
+    .BOTTON {
+        height: 689px;
+        overflow: hidden;
+    }
+
+    .mouleDiv h2 {
+        line-height: 103px;
+        font-size: 40px;
+        color: #fff;
+        font-weight: normal;
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    .mouleDiv p {
+        font-size: 14px;
+        color: #fff;
+        line-height: 25px;
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    .mouleDivBtns {
+        width: 120px;
+        height: 44px;
+        background: #f2ad17;
+        text-align: center;
+        line-height: 44px;
+        margin: 25px 0 0 0;
+        float: right;
+        margin-right: 10% !important;
+    }
+
+    .mouleDivBtns a {
+        font-size: 16px;
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .BRDC {
+        padding-top: 66px;
+    }
+
+    .about {
+        width: 100%;
+        background: #ececec;
+        margin-top: 30px;
+    }
+
+    .aboutLeft {
+        padding-bottom: 165px;
+    }
+
+    .aboutCon {
+        overflow: hidden;
+    }
+
+    .aboutLeftL {
+    }
+
+    .aboutLeft {
+        padding-top: 80px;
+    }
+
+    .aboutLeftR {
+        padding-top: 69px;
+        padding-left: 30px;
+    }
+
+    .aboutLeftR h3 {
+        font-size: 12px;
+    }
+
+    .aboutLTitle {
+
+        margin-top: 170px;
+    }
+
+    .aboutLTitle h3 {
+        font-size: 30px;
+    }
+
+    .aboutSM {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 100%;
+        background: #131313;
+    }
+
+    .foot {
+        overflow: hidden;
+    }
+
+    .footLeft {
+        float: left;
+        width: 50%;
+        padding-top: 68px;
+    }
+
+    .footLeftCC {
+        width: 68%;
+        overflow: hidden;
+        margin-left: 8%;
+    }
+
+    .footLeftCT {
+        float: left;
+        width: 50%;
+    }
+
+    .footLeftCT h2 {
+        height: 28px;
+        line-height: 28px;
+        border-bottom: 1px solid #393939;
+        color: #7a7a7a;
+        font-size: 12px;
+        font-weight: normal
+    }
+
+    .FLTH {
+        font-size: 20px;
+        font-family: Arial
+    }
+
+    .footLeftLogo {
+        margin-left: 8%;
+        margin-top: 57px;
+    }
+
+    .footRight {
+        float: right;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .footRight ul {
+        overflow: hidden;
+        margin-top: 170px;
+    }
+
+    .footRight ul li {
+        width: 57px;
+        height: 57px;
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: #fff;
+        margin: 0 3%;
+        float: right;
+        text-align: center
+    }
+
+    .footRight ul li a {
+        display: block;
+        width: 100%;
+        height: inherit;
+    }
+
+    .footRight ul li a img {
+        margin-top: 12px;
+    }
+
+    .foot-foot {
+        margin-top: 3px;
+        line-height: 30px;
+        overflow: hidden;
+    }
+
+    .foot-foot h2 {
+        float: left;
+        font-family: Arial;
+        font-size: 14px;
+        color: #919191;
+        font-weight: normal;
+        margin-left: 4%;
+    }
+
+    .foot-foot h3 {
+        float: right;
+        font-weight: normal;
+        margin-right: 1.5%;
+        font-size: 14px;
+        color: #919191;
+    }
+
+    .footBt-logo {
+        display: none;
+    }
+
+    .mFoot-foot {
+        display: none;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
