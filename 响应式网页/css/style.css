@@ -15,7 +15,8 @@ ul, ol, li, dl, dd, dt {
 
 img {
     margin: 0;
-    vertical-align: top
+    vertical-align: top;
+    border:none;
 }
 
 a {
